@@ -1,0 +1,183 @@
+/*css is cascading stylesheets is what makes a website pretty */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	background-color:#FFFBFF;
+	color:black;
+	font-family: Oswald;
+	margin-left:20px;
+	margin-left:20px;
+}
+
+h1 {
+	color:pink;
+	opacity:.95;
+	font-size:50px;
+	text-shadow: -20px 5px 2px cyan;
+}
+
+/*default height is 0 
+/* if you do + then to the right if - then to the left*/
+
+/*position move me compared to where i would be or have chrome deal with it 
+/*measurement:dont do in px are cool;*/
+
+
+ul {
+	color:black;
+	font-family: Oswald;
+
+}
+
+p {
+	color:black;
+	font-family: Oswald;
+}
+
+p span.strong {
+	font-weight:bold;
+}
+
+div.aboutme {
+	float:left;
+	clear:left;
+	padding:5px;
+	margin:20px 25px 20px 25px;
+}
+
+/*margin is unchanging the width is unchanging if change the size of the page*/
+
+div.favthings {
+	float:right;
+	clear:right;
+	padding:5px;
+	margin:20px 90px 20px 25px;
+}
+
+div.napoleon {
+	float:left;
+	clear:left;
+	padding:5px 5px 5px 5px;
+	margin:20px 25px 25px 25px;
+}
+
+div img {
+	margin-left:-3px;
+	width:500px;
+	height:520px;
+}
+
+/*the element. thing gives element with the class */
+/*id can only use once class you can use multiple times 
+*/
+
+div.solitaire {
+	float:right;
+	clear:right;
+	padding:5px;
+	margin:20px 25px 20px 25px;
+}
+
+div.box1 {
+	background-color:pink;
+	opacity:.25;
+	display:inline-block;
+	position:absolute;
+	top:500px;
+	bottom:200px;
+	left:983px;
+	width:200px;
+	height:200px;
+}
+
+div.box3 {
+	background-color:pink;
+	opacity:.25;
+	display:inline-block;
+	position:absolute;
+	top:500px;
+	bottom:200px;
+	left:772px;
+	width:200px;
+	height:200px;
+}
+
+
+#map {
+	display:inline-block;
+	position:absolute;
+	top:709px;
+	bottom:200px;
+	left:772px;
+	width:200px;
+	height:200px;
+}
+
+
+div.box4 {
+	background-color:pink;
+	opacity:.25;
+	display:inline-block;
+	position:absolute;
+	top:709px;
+	bottom:200px;
+	left:982px;
+	width:200px;
+	height:200px;
+}
+
+footer {
+	opacity:.25;
+	position:absolute;
+    top:900px;
+    bottom:0px;
+    left:600px;
+    margin-bottom:0px;
+}
+.fadeButton {
+	border:5px;
+}
+
+#skullbutton {
+	position:absolute;
+	font-size:50px;
+}
+/*TRBL top right bottom left for margin could do 30 2 100 -10*/
+/*other good ones: background-color
+color
+font-size
+font-family
+font-style
+font-weight
+list-style-type
+text-indent*/
+
+/*specifity relates to if things are nested in another
+*/
+
+/*border-bottom: 20px pink;
+/*display: inline
+
+An element with display: inline; takes up no more space than is necessary to cover its content.
+
+If there are multiple elements whose display is set to inline, they will be allowed to share the same line.
+
+There are many HTML elements whose display property is set to inline by default. Some of the most common include <a>, <br>, and <span>, as well as all of the form elements like <input>, <textarea>, and <button>.
+
+display: block
+
+An element with display: block; will automatically take up the entire line if no width is set, even if its content doesn’t take up the whole line.
+
+An element whose display is set to block will not share a line with any other element unless some other property intervenes (such as float).
+
+As with inline, there are several HTML elements whose display property defaults to block. Some of the most common are <p>, <ul>, <ol>, <div>, all the headings, <article>, <section>, and <nav>.
+
+display: inline-block
+
+An element with display: inline-block; shares some of its properties with display: inline; elements and some with display: block; elements. It sets its width and height in the same way as block, but can exist on the same line as other inline and inline-block elements. The <img> element is displayed like an inline-block element by default.
+*/
+
+/*position fixed makes it so it doesnt move*/
+
+

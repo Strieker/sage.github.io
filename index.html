@@ -3,49 +3,68 @@
 	<head>
 		<title>This Is Me</title>
 		<link href="stylesheet.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src=""></script>
+		<script src="hello.js"></script>
+		<!-- need script end tag-->
+
 	</head>
 	
 	<body>
 		
 		<div class="aboutme">
-		<h1>About Me</h1>
-		<p>My name is Sage, I'm 18 years old, and I am from Marina del Rey, CA.</p>
+		<h1 id="aboutmeheading">About Me</h1>
+		<p>My name is Sage, I'm a legal adult (sort of), and I am from West Los Angeles, CA.</p>
 		</div>
 
 		<div class="favthings">
-		<h1>Favorite Things/People</h1>
+		<h1 id=favheading>Favorite Things/People</h1>
 		<ul>
-			<li>Family</li>
-			<li>LMU comp sci</li>
-			<li>Coffee</li>
-		<ul>
+			<li>Family &#128150;</li>
+			<li>LMU Comp Sci &#127890;</li>
+			<li>Coffee &#9749;</li>
+		</ul>
 		</div>
 
 		<div class="napoleon">
-		<h1 id="best_gif">The Best Gif Ever</h1>
-		<p>Why: because <span id="bae">Napoleon Dynamite is my  spirit animal. HOW can you not LOOOOVE those dance moves???</p>
+		<h1 id="bestgifheading">The Best Gif Ever</h1>
+		<p>Why: because Napoleon Dynamite is my  spirit animal. HOW can you not LOOOOVE those dance moves???</p>
 		<div class="image">
 		<img src="https://media.giphy.com/media/81KxJC7vco8VO/giphy.gif" height="590" width="700">
 		</div>
 		</div>
 
 		<div class="solitaire">	
-		<h1>The Best Game Ever</h1>
+		<h1 id=solitaireheading>The Best Game Ever</h1>
 		<a href="http://worldofsolitaire.com/">
-		<p>&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;</p>
+		<p id=spade>&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;&#9824;</p>
 		</a>
 		</div>
 
 		<div class="box1">
 		</div>
 		<footer>&copy; 2017</footer>
-		<div class="box2">
+		<div id="map">
+    	<script>
+      		var map;
+      		function initMap() {
+        	map = new google.maps.Map(document.getElementById('map'), {
+          			center: {lat: 33.9910, lng: -118.4669},
+          			zoom: 8
+        		});
+      		}
+    	</script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIHM7M-2W3468zwW8KvEMXFcbxhqSKsgk&callback=initMap"
+  type="text/javascript"></script>
 		</div>
 		<div class="box3">
 		</div>
 		<div class="box4">
 		</div>
-
+		<button class="fadeButton">Napoleon &#9995;</button>
+		<div id="skullbutton">&#128561;</div>
 	</body>
 
 </html>
+
+<!--can make multiple classes by separating it with spaces-->
